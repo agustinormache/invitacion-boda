@@ -1,6 +1,6 @@
-# Plantilla Invitación 15 Años (Quasar)
+# Plantilla Invitación Boda (Quasar)
 
-Esta es una plantilla reutilizable para invitaciones de cumpleaños de 15 años. Todo el contenido es dinámico y se configura desde un único archivo JSON.
+Esta es una plantilla reutilizable para invitaciones de boda. Todo el contenido es dinámico y se configura desde un único archivo JSON.
 
 ## 🚀 Cómo empezar
 
@@ -263,4 +263,3 @@ git push
 ```
 
 ¡Listo! Al hacer `git push`, si vas a la pestaña **"Actions"** en tu repositorio de GitHub, vas a ver una bolita girando que dice "Deploy to Hostinger FTP". Cuando termine de cargar, tu web ya estará subida a `tudominio.com/paula`.
-# invitacion-boda

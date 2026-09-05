@@ -1,0 +1,73 @@
+// app global css
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: $primary;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.title-font {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(3.5rem, 12vw, 6rem);
+  line-height: 1.1;
+  font-weight: 600;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.card-style {
+  background-color: #f7f5f0;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.subtitle-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.text-primary-dark {
+  color: $primary;
+}
+
+.bg-pastel {
+  background-color: $secondary;
+}
+
+.bg-beige {
+  background-color: $accent;
+}
+
+.rounded-btn {
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+
+// Fade in animation for elements
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cursive-font {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(4rem, 15vw, 8rem);
+  line-height: 1.1;
+  font-weight: 400;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,67 @@
+{
+  "general": {
+    "pageTitle": "Laura y Tomi - Nuestra Boda",
+    "pageDescription": "¡Nos casamos y queremos celebrarlo con vos!",
+    "name": "Laura y Tomi",
+    "whatsappNumber": "5491134567890",
+    "musicFile": "https://www.youtube.com/watch?v=oE56g61mW44",
+    "developerLink": "https://unosei.com.ar"
+  },
+  "hero": {
+    "show": true,
+    "heroText": "¡Nos Casamos!",
+    "heroImage": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    "dateText": "Sábado 28 de Noviembre de 2026"
+  },
+  "countdown": {
+    "show": true,
+    "eventDate": "2026-11-28T19:00:00"
+  },
+  "eventInfo": {
+    "show": true,
+    "calendarTitle": "Boda de Laura y Tomi",
+    "eventDate": "2026-11-28T19:00:00",
+    "ceremonia": {
+      "timeText": "19:00 h",
+      "venue": "Catedral de San Isidro",
+      "address": "Av. del Libertador 16200, San Isidro",
+      "mapUrl": "https://maps.google.com/?q=Catedral+de+San+Isidro"
+    },
+    "fiesta": {
+      "timeText": "21:00 h",
+      "venue": "La Delfina",
+      "address": "Pilar, Buenos Aires",
+      "mapUrl": "https://maps.google.com/?q=LA+DELFINA+Pilar"
+    }
+  },
+  "gallery": {
+    "show": true,
+    "images": [
+      "https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1478146896981-b80fe463b330?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  "dressCode": {
+    "show": true,
+    "text": "ELEGANTE"
+  },
+  "rsvp": {
+    "show": true,
+    "googleScriptUrl": "https://script.google.com/macros/s/AKfycbw-dv5myKfrrvrg9gYHNOuLYCmzc-LBifZCeqPeVfMNmSLAJ8Ler35u4Y5zb-5mjrMt/exec"
+  },
+  "gifts": {
+    "show": true,
+    "bankAccount": {
+      "alias": "lauraytomi.boda",
+      "titular": "Laura Perez"
+    }
+  },
+  "footer": {
+    "show": true,
+    "footerText": "Te esperamos para compartir este día tan especial."
+  }
+}
