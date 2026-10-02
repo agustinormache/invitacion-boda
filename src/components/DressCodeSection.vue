@@ -1,7 +1,7 @@
 <template>
   <section
     class="dress-code-section text-center"
-    style="background-color: var(--q-secondary); padding-top: 80px; padding-bottom: 20px"
+    style="background-color: var(--q-secondary); padding: 80px 0"
   >
     <div class="q-container max-width-800 q-mx-auto q-px-md">
       <q-icon name="checkroom" size="3rem" class="q-mb-md" style="color: var(--q-primary)" />
@@ -33,6 +33,21 @@
       >
         Los esperamos para celebrar con su mejor outfit.
       </p>
+      <div
+        class="text-caption text-primary-dark q-mt-md"
+        style="
+          font-size: 1.2rem;
+          font-weight: 600;
+          font-family: 'Montserrat', sans-serif;
+          letter-spacing: 2px;
+          border-top: 1px solid var(--q-primary);
+          border-bottom: 1px solid var(--q-primary);
+          padding: 10px 0;
+          display: inline-block;
+        "
+      >
+        SIN NIÑOS
+      </div>
     </div>
   </section>
 </template>

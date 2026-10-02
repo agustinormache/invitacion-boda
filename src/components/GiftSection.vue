@@ -25,36 +25,19 @@
         >
           Tu presencia es nuestro mejor regalo.
         </div>
-        <div
-          class="text-caption text-grey-8 q-mb-lg"
-          style="font-weight: 300; font-family: 'Montserrat', sans-serif"
-        >
-          Si deseás hacernos un regalo o colaborar con nuestra Luna de Miel podés hacerlo acá.
+        <div class="text-caption text-grey-8 q-mb-lg" style="font-weight: 300; font-family: 'Montserrat', sans-serif">
+          {{ bankAccount.giftText || 'Si deseás hacernos un regalo o colaborar con nuestra Luna de Miel podés hacerlo acá.' }}
         </div>
 
-        <div class="q-mt-md">
-          <div
-            class="text-overline text-grey-6"
-            style="letter-spacing: 2px; font-family: 'Montserrat', sans-serif"
-          >
-            ALIAS
+        <div class="q-mt-md text-center q-px-md" style="font-family: 'Montserrat', sans-serif">
+          <div v-if="bankAccount.cbu" class="q-mt-sm">
+            <strong>CBU:</strong> {{ bankAccount.cbu }}
+            <q-btn flat dense icon="content_copy" size="sm" @click="copyText(bankAccount.cbu)" />
           </div>
-          <div class="text-body2 q-mb-sm" style="font-family: 'Montserrat', sans-serif">
-            {{ bankAccount.alias }}
+          <div v-if="bankAccount.alias" class="q-mt-sm">
+            <strong>Alias:</strong> {{ bankAccount.alias }}
+            <q-btn flat dense icon="content_copy" size="sm" @click="copyText(bankAccount.alias)" />
           </div>
-          <q-btn
-            unelevated
-            class="rounded-btn"
-            style="
-              background-color: var(--q-primary);
-              color: white;
-              padding: 5px 20px;
-              font-size: 0.8rem;
-              font-family: 'Montserrat', sans-serif;
-            "
-            label="Copiar Alias"
-            @click="copyText(bankAccount.alias)"
-          />
         </div>
       </div>
     </div>

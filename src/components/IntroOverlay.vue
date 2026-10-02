@@ -10,7 +10,7 @@
         <div class="text-overline text-white q-mb-sm" style="letter-spacing: 2px">
           ¡NOS CASAMOS!
         </div>
-        <div class="cursive-font q-mb-xl" style="line-height: 1.3">{{ name }}</div>
+        <div class="q-mb-xl" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 12vw, 6rem); line-height: 1.1; font-weight: 400; color: white;">{{ name }}</div>
         <q-btn
           unelevated
           outline
@@ -47,7 +47,8 @@ const openInvitation = () => {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
 }
 .content-box {
   position: relative;

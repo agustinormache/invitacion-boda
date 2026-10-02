@@ -53,6 +53,8 @@
           :bankAccount="config.gifts.bankAccount" 
         />
 
+        <AccommodationSection />
+
         <ThankYouFooter
           v-if="config.footer.show"
           :name="config.general.name"
@@ -82,6 +84,7 @@ import EventInfoSection from '../components/EventInfoSection.vue'
 import ImageGallery from '../components/ImageGallery.vue'
 import DressCodeSection from '../components/DressCodeSection.vue'
 import GiftSection from '../components/GiftSection.vue'
+import AccommodationSection from '../components/AccommodationSection.vue'
 import RsvpSection from '../components/RsvpSection.vue'
 import ThankYouFooter from '../components/ThankYouFooter.vue'
 import FloatingActions from '../components/FloatingActions.vue'

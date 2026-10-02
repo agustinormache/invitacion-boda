@@ -1,11 +1,10 @@
 <template>
-  <section
-    class="hero-section text-white flex flex-center"
-    :style="{ backgroundImage: `url(${heroImage})` }"
-  >
-    <div class="hero-overlay absolute-full"></div>
+  <section class="hero-section flex flex-center">
+    <!-- Frame image for desktop/mobile handling -->
+    <div class="frame-background"></div>
+
     <div class="hero-content text-center z-top fade-in" style="width: 100%; max-width: 800px">
-      <div class="cursive-font q-mb-lg" style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); line-height: 1.3">
+      <div class="q-mb-lg" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 12vw, 6rem); line-height: 1.1; color: var(--q-primary)">
         {{ name }}
       </div>
 
@@ -13,14 +12,14 @@
         <div class="separator-line"></div>
         <div
           class="subtitle-font text-caption q-mx-md"
-          style="letter-spacing: 3px; font-style: italic"
+          style="letter-spacing: 3px; font-style: italic; color: var(--q-primary)"
         >
           {{ heroText }}
         </div>
         <div class="separator-line"></div>
       </div>
 
-      <div class="subtitle-font q-mt-lg" style="letter-spacing: 4px; font-size: 0.9rem">
+      <div class="subtitle-font q-mt-lg" style="letter-spacing: 4px; font-size: 0.9rem; color: var(--q-primary)">
         {{ dateText }}
       </div>
     </div>
@@ -39,7 +38,7 @@ defineProps({
   },
   heroImage: {
     type: String,
-    required: true,
+    required: false,
   },
   dateText: {
     type: String,
@@ -51,13 +50,21 @@ defineProps({
 .hero-section {
   position: relative;
   min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; // Parallax effect
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.3); // Slight dark overlay for text readability
+.frame-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/hero_frame.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
 }
 
 .hero-content {
@@ -66,7 +73,7 @@ defineProps({
 
 .separator-line {
   height: 1px;
-  background-color: var(--q-secondary);
+  background-color: var(--q-primary);
   width: 50px;
   flex: none;
 }

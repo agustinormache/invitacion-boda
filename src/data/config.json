@@ -1,67 +1,71 @@
 {
   "general": {
-    "pageTitle": "Laura y Tomi - Nuestra Boda",
-    "pageDescription": "¡Nos casamos y queremos celebrarlo con vos!",
-    "name": "Laura y Tomi",
+    "pageTitle": "Ana y Andrés - Nuestra Boda",
+    "pageDescription": "Nuestra historia nos trajo hasta este día. Queremos celebrarlo rodeados de las personas que queremos y que, de una u otra manera, han formado parte de nuestro camino.",
+    "name": "ANA Y ANDRÉS",
     "whatsappNumber": "5491134567890",
     "musicFile": "https://www.youtube.com/watch?v=oE56g61mW44",
     "developerLink": "https://unosei.com.ar"
   },
   "hero": {
     "show": true,
-    "heroText": "¡Nos Casamos!",
-    "heroImage": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
-    "dateText": "Sábado 28 de Noviembre de 2026"
+    "heroText": "NOS CASAMOS",
+    "heroImage": "",
+    "dateText": "23 DE ENERO DE 2027"
   },
   "countdown": {
     "show": true,
-    "eventDate": "2026-11-28T19:00:00"
+    "eventDate": "2027-01-23T19:00:00"
   },
   "eventInfo": {
     "show": true,
-    "calendarTitle": "Boda de Laura y Tomi",
-    "eventDate": "2026-11-28T19:00:00",
+    "calendarTitle": "Boda de Ana y Andrés",
+    "eventDate": "2027-01-23T19:00:00",
     "ceremonia": {
       "timeText": "19:00 h",
-      "venue": "Catedral de San Isidro",
-      "address": "Av. del Libertador 16200, San Isidro",
-      "mapUrl": "https://maps.google.com/?q=Catedral+de+San+Isidro"
+      "venue": "Capilla Santa Rita",
+      "address": "",
+      "mapUrl": "https://maps.app.goo.gl/sqm96kuQgH9BaGkt7"
     },
     "fiesta": {
-      "timeText": "21:00 h",
-      "venue": "La Delfina",
-      "address": "Pilar, Buenos Aires",
-      "mapUrl": "https://maps.google.com/?q=LA+DELFINA+Pilar"
+      "timeText": "A continuación",
+      "venue": "Remansos",
+      "address": "",
+      "mapUrl": "https://maps.app.goo.gl/TrCjQNkfGrDzBoLh7"
     }
   },
   "gallery": {
     "show": true,
     "images": [
-      "https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1478146896981-b80fe463b330?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      "/img/IMG_001.webp",
+      "/img/IMG_002.webp",
+      "/img/IMG_003.webp",
+      "/img/IMG_004.webp"
     ]
   },
   "dressCode": {
     "show": true,
-    "text": "ELEGANTE"
+    "text": "FORMAL"
   },
   "rsvp": {
     "show": true,
-    "googleScriptUrl": "https://script.google.com/macros/s/AKfycbw-dv5myKfrrvrg9gYHNOuLYCmzc-LBifZCeqPeVfMNmSLAJ8Ler35u4Y5zb-5mjrMt/exec"
+    "googleScriptUrl": "https://script.google.com/macros/s/AKfycbz5v28N2j4Gh-zpkSBxuko6S6bABcW9KW4bVw9vjKbk-dI2zh0hNZKf9yKbVe6qLkOJGQ/exec"
   },
   "gifts": {
     "show": true,
     "bankAccount": {
-      "alias": "lauraytomi.boda",
-      "titular": "Laura Perez"
+      "giftText": "Tu presencia será el regalo más hermoso que podemos recibir en esta ocasión tan especial. Pero si deseas tener un detalle con nosotros, podrás hacerlo mediante los siguientes datos. Lo recibiremos con muchísimo cariño y agradecimiento.",
+      "banco": "Banco Santander",
+      "cuenta": "Cuentas en Pesos 379-357832/4",
+      "cbu": "0720379288000035783240",
+      "alias": "MV.ANDRES.BUGNON",
+      "titular": "Bugnon Carlos Andres",
+      "dni": "34379494"
     }
   },
   "footer": {
     "show": true,
-    "footerText": "Te esperamos para compartir este día tan especial."
+    "footerText": "Gracias por acompañarnos en este momento tan importante",
+    "instagram": "BODA ANITA Y ANDRE"
   }
 }

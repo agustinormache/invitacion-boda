@@ -31,9 +31,16 @@ interface ImportMetaEnv {
   readonly CommonProgramW6432?: string;
   readonly DISPLAY?: string;
   readonly DriverData?: string;
-  readonly EFC_6620_1592913036?: number;
-  readonly EFC_6620_4126798990?: number;
+  readonly EFC_7636_1262719628?: number;
+  readonly EFC_7636_1592913036?: number;
+  readonly EFC_7636_2283032206?: number;
+  readonly EFC_7636_2775293581?: number;
+  readonly EFC_7636_344590478?: number;
+  readonly EFC_7636_3789132940?: number;
+  readonly EFC_7636_4126798990?: number;
   readonly EXEPATH?: string;
+  readonly FPS_BROWSER_APP_PROFILE_STRING?: string;
+  readonly FPS_BROWSER_USER_PROFILE_STRING?: string;
   readonly GIT_ASKPASS?: string;
   readonly HOME?: string;
   readonly HOMEDRIVE?: string;
