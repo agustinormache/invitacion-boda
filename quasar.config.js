@@ -52,7 +52,7 @@ export default defineConfig((/* ctx */) => {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // vueRouterBase,
 
-      publicPath: '/',
+      publicPath: '',
       // define: {},
       // defineEnv: {}
       // ignorePublicFolder: true,
