@@ -1,1 +1,0 @@
-import{Z as e,mt as t,r as n,tt as r,vt as i}from"./index-AxYTPVbS.js";import{t as a}from"./QPage-B_xClvqq.js";var o={__name:`second`,setup(o){return(o,s)=>(t(),e(a,{class:`flex flex-center`},{default:i(()=>[r(n,{color:`secondary`,to:`/`,label:`Go to Index Page`,"no-caps":``})]),_:1}))}};export{o as default};

@@ -1,7 +1,7 @@
 <template>
   <section class="gallery-section q-py-lg">
     <div class="row q-col-gutter-sm q-px-sm">
-      <div v-for="(img, index) in images" :key="index" class="col-3">
+      <div v-for="(img, index) in images" :key="index" class="col-6 col-sm-3">
         <q-img
           :src="img"
           spinner-color="primary"

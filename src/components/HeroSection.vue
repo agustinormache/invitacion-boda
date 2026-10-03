@@ -4,7 +4,7 @@
     <div class="frame-background"></div>
 
     <div class="hero-content text-center z-top fade-in" style="width: 100%; max-width: 800px">
-      <div class="q-mb-lg" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 12vw, 6rem); line-height: 1.1; color: var(--q-primary)">
+      <div class="q-mb-lg" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 12vw, 6rem); line-height: 1.1; color: var(--q-primary); text-transform: uppercase;">
         {{ name }}
       </div>
 
@@ -60,7 +60,7 @@ defineProps({
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/img/hero_frame.png');
+  background-image: url('../img/hero_frame.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

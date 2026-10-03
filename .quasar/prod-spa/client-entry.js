@@ -31,7 +31,7 @@ import quasarUserOptions from './quasar-user-options.js'
 
 
 
-const publicPath = `/`
+const publicPath = `/ana-y-andres/`
 
 async function start ({
   app,

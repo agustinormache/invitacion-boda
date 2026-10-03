@@ -52,7 +52,7 @@ export default defineConfig((/* ctx */) => {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // vueRouterBase,
 
-      publicPath: '',
+      publicPath: 'ana-y-andres',
       // define: {},
       // defineEnv: {}
       // ignorePublicFolder: true,

@@ -2,7 +2,7 @@
   "general": {
     "pageTitle": "Ana y Andrés - Nuestra Boda",
     "pageDescription": "Nuestra historia nos trajo hasta este día. Queremos celebrarlo rodeados de las personas que queremos y que, de una u otra manera, han formado parte de nuestro camino.",
-    "name": "ANA Y ANDRÉS",
+    "name": "Ana y Andrés",
     "whatsappNumber": "5491134567890",
     "musicFile": "https://www.youtube.com/watch?v=oE56g61mW44",
     "developerLink": "https://unosei.com.ar"
@@ -37,10 +37,10 @@
   "gallery": {
     "show": true,
     "images": [
-      "/img/IMG_001.webp",
-      "/img/IMG_002.webp",
-      "/img/IMG_003.webp",
-      "/img/IMG_004.webp"
+      "img/IMG_001.webp",
+      "img/IMG_002.webp",
+      "img/IMG_003.webp",
+      "img/IMG_004.webp"
     ]
   },
   "dressCode": {

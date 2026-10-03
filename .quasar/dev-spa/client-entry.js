@@ -32,7 +32,7 @@ import quasarUserOptions from './quasar-user-options.js'
 
 console.info('[Quasar] Running SPA.')
 
-const publicPath = `/`
+const publicPath = `/ana-y-andres/`
 
 async function start ({
   app,

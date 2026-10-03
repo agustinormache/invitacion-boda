@@ -47,6 +47,7 @@
         font-style: italic;
         font-family: 'Playfair Display', serif;
         font-weight: normal;
+        text-transform: capitalize;
       "
     >
       {{ name }}

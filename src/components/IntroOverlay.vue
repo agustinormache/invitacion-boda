@@ -10,7 +10,7 @@
         <div class="text-overline text-white q-mb-sm" style="letter-spacing: 2px">
           ¡NOS CASAMOS!
         </div>
-        <div class="q-mb-xl" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 12vw, 6rem); line-height: 1.1; font-weight: 400; color: white;">{{ name }}</div>
+        <div class="q-mb-xl" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 12vw, 6rem); line-height: 1.1; font-weight: 400; color: white; text-transform: uppercase;">{{ name }}</div>
         <q-btn
           unelevated
           outline

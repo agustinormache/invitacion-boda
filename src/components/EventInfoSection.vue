@@ -10,8 +10,9 @@
       class="z-top content-box q-py-xl"
       style="width: 100%; padding-top: 100px; padding-bottom: 100px"
     >
-      <div class="row justify-center q-col-gutter-xl q-px-md max-width-1000 q-mx-auto">
-        <!-- Ceremonia -->
+      <div class="max-width-1000 q-mx-auto q-px-md" style="width: 100%">
+        <div class="row justify-center q-col-gutter-xl">
+          <!-- Ceremonia -->
         <div class="col-12 col-md-6" v-if="ceremonia">
           <q-icon name="church" size="3rem" class="q-mb-sm" style="color: var(--q-primary)" />
           <div
@@ -77,6 +78,7 @@
             "
             label="Llegar a la Fiesta"
           />
+        </div>
         </div>
       </div>
 
