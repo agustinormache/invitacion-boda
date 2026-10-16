@@ -31,8 +31,11 @@ interface ImportMetaEnv {
   readonly CommonProgramW6432?: string;
   readonly DISPLAY?: string;
   readonly DriverData?: string;
-  readonly EFC_6620_1592913036?: number;
-  readonly EFC_6620_4126798990?: number;
+  readonly EFC_9488_1262719628?: number;
+  readonly EFC_9488_1592913036?: number;
+  readonly EFC_9488_2283032206?: number;
+  readonly EFC_9488_3789132940?: number;
+  readonly EFC_9488_4126798990?: number;
   readonly EXEPATH?: string;
   readonly GIT_ASKPASS?: string;
   readonly HOME?: string;

@@ -35,8 +35,8 @@
       "
     >
       Hay momentos que se vuelven inolvidables cuando los compartimos con las personas que queremos.
-      Por eso, deseo celebrar esta noche tan especial rodeada de quienes ocupan un lugar importante
-      en mi corazón.
+      Por eso, deseamos celebrar esta noche tan especial rodeada de quienes ocupan un lugar
+      importante en mi corazón.
     </div>
 
     <!-- Firma de la quinceañera -->
